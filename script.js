@@ -18,10 +18,12 @@ clear.addEventListener('click', () => {
 document.addEventListener('click', e => {
     
     setTimeout(() => {
-        e.target.style = "background-color: rgb(66, 65, 65);"
+        e.target.style = "background-color:  rgb(36, 35, 35);"
     }, 100);
 
-    e.target.style = "background-color: rgb(37, 37, 37);"
+    e.target.style = "background-color: rgb(66, 65, 65)"
+
+   
 });
 
 document.addEventListener('keydown', e => {

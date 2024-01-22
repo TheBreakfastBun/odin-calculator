@@ -7,39 +7,45 @@
         <title>Calculator</title>
     </head>
 
-    <body style="background-color: rgb(66, 65, 65);">
-       <div class="valueDisplay">
-            <div class="value">0</div>
-       </div>
-        <div class="calculator">
-            <div class="clearSection">
-                <div class="clearButton">AC</div>
-                <div class="divideButton" onclick="operation(document.querySelector('.value').textContent, '/')">÷</div>
-            </div>
-            <div class="multipleSection">
-                <div onclick="input('7')">7</div>
-                <div onclick="input('8')">8</div>
-                <div onclick="input('9')">9</div>
-                <div onclick="operation(document.querySelector('.value').textContent, '*')">x</div>
-            </div> 
-            <div class="subtractSection">
-                <div onclick="input('4')">4</div>
-                <div onclick="input('5')">5</div>
-                <div onclick="input('6')">6</div>
-                <div onclick="operation(document.querySelector('.value').textContent, '-')">-</div>
-            </div>
-            <div class="addSection">
-                <div onclick="input('1')">1</div>
-                <div onclick="input('2')">2</div>
-                <div onclick="input('3')">3</div>
-                <div onclick="operation(document.querySelector('.value').textContent, '+')">+</div>
-            </div>
-            <div class="equalSection">
-                <div onclick="input('0')">0</div>
-                <div onclick="input('.')">.</div>
-                <div onclick="operation(document.querySelector('.value').textContent, '=')">=</div>
-            </div>
-       </div>
+    <body style="background-color: rgb(36, 35, 35);">
+
+        <div class="container">
+            <div class="valueDisplay">
+                <div class="value">0</div>
+           </div>
+            <div class="calculator">
+                <div class="clearSection">
+                    <div class="clearButton">AC</div>
+                    <div></div>
+                    <div></div>
+                    <div class="divideButton" onclick="operation(document.querySelector('.value').textContent, '/')">÷</div>
+                </div>
+                <div class="multipleSection">
+                    <div onclick="input('7')">7</div>
+                    <div onclick="input('8')">8</div>
+                    <div onclick="input('9')">9</div>
+                    <div onclick="operation(document.querySelector('.value').textContent, '*')">x</div>
+                </div> 
+                <div class="subtractSection">
+                    <div onclick="input('4')">4</div>
+                    <div onclick="input('5')">5</div>
+                    <div onclick="input('6')">6</div>
+                    <div onclick="operation(document.querySelector('.value').textContent, '-')">-</div>
+                </div>
+                <div class="addSection">
+                    <div onclick="input('1')">1</div>
+                    <div onclick="input('2')">2</div>
+                    <div onclick="input('3')">3</div>
+                    <div onclick="operation(document.querySelector('.value').textContent, '+')">+</div>
+                </div>
+                <div class="equalSection">
+                    <div onclick="input('0')" class="zero">0</div>
+                    <div onclick="input('.')">.</div>
+                    <div onclick="operation(document.querySelector('.value').textContent, '=')">=</div>
+                </div>
+           </div>
+        </div>
+       
        
     </body>
 </html>
