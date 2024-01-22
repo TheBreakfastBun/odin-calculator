@@ -1,0 +1,37 @@
+.valueDisplay{
+    border: 2px red solid;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 150px;
+}
+
+.value{
+    color: white;
+    font-size: 64px;
+    text-align: end;
+}
+
+.clearSection, .multipleSection, .subtractSection, .addSection, .equalSection{
+    border: 2px orange solid;
+    height: 150px;
+    display: flex;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.multipleSection div, .subtractSection div, .addSection div, .equalSection div{
+    flex: 1;
+    border: 5px yellow solid;
+}
+
+.clearButton{
+    border: 5px yellow solid;
+    flex: 2; 
+}
+
+.divideButton{
+    border: 5px yellow solid;
+    flex: 1;
+}
